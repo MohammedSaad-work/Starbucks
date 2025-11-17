@@ -1,0 +1,335 @@
+* {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body {
+    overflow-x: hidden;
+}
+
+  
+/* Main header */
+
+.head-1 {
+    height: 99px;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 91px;
+    width: 99px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 51px;
+    width: 51px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.menu a {
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: green;
+}
+
+.space {
+     height: 99px;
+    width: 50%;
+}
+
+.sign {
+    padding: 6px 16px;
+    background: white;
+    color: black;
+    border-radius: 1.5rem;
+     cursor: pointer;
+
+}
+
+.sign:hover {
+    background: lightgray;
+}
+
+.join {
+    padding: 7px 16px;
+    background: black;
+    color: white;
+    border-radius: 1.5rem;
+    border: none;
+     cursor: pointer;
+}
+
+.join:hover {
+    background: darkgray;
+}
+
+/* sub header */
+
+.sub-head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sub1-head {
+    width: 95%;
+    height: 100px;
+    background-color:  #32462f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 19px;
+ 
+}
+
+.start {
+    background-color:  #32462f;
+    color: white; 
+    margin-left: 15px; 
+    padding: 2px 12px;
+    font-weight: 400;
+    font-size: 19px;
+    border-radius: 200px;
+    border-color: white;
+     cursor: pointer;
+}
+
+.start:hover{
+    background-color: rgb(2, 106, 2);
+}
+
+/* Body */
+.starbucks-section{
+    display: flex;
+    color: white;
+   margin-left: 39px;
+   margin-right: 39px;
+   margin-top: 30px;
+}
+
+.background1 {
+    background-color: #b10c2b;
+}
+
+.background2 {
+    background-color: #006241;
+}
+
+.left-box img{
+    width: 720px;
+    height: 625px;
+    background-size: cover;
+}
+
+.right-box{
+    
+    margin-left: 20px;
+    width: 720px;
+    height: 625px;
+    text-align: center;     /* <-- This centers the text */
+    display: flex;          /* <-- Add flexbox */
+    flex-direction: column; /* <-- Stack items vertically */
+    align-items: center;    /* <-- Centers items horizontally */
+    justify-content: center;
+}
+
+.right-box h2{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+.right-box p{
+    margin-bottom: 15px;
+    font-size: 25px;
+    padding: 0 120px;   /* <-- This aligns like the Starbucks design */
+    line-height: 1.6;
+}
+
+.first-btn {
+    padding: 12px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    border-color: 2px solid white;
+}
+
+.first-btn:hover {
+    background-color: rgb(189, 185, 185);
+}
+
+.color1 {
+     background: white;
+    color: green;
+}
+
+.color2 {
+      background: #006241;
+    color: white;
+}
+
+.color3 {
+    background: #b10c2b;
+    color: white;
+}
+
+.starbucks-section2{
+    display: flex;
+    background-color: #f1f0e4;
+    color: black;
+   margin-left: 39px;
+   margin-right: 39px;
+   margin-top: 30px;
+}
+
+.left-box2 img{
+    width: 720px;
+    height: 420px;
+    background-size: cover;
+}
+
+.right-box2{
+    
+    margin-left: 20px;
+    width: 720px;
+    height: 420px;
+    text-align: center;     /* <-- This centers the text */
+    display: flex;          /* <-- Add flexbox */
+    flex-direction: column; /* <-- Stack items vertically */
+    align-items: center;    /* <-- Centers items horizontally */
+    justify-content: center;
+}
+.right-box2 h3{
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+
+.right-box2 h6{
+    
+    margin-bottom: 40px;
+    font-size: 20px;
+    padding: 0 70px;   /* <-- This aligns like the Starbucks design */
+    line-height: 1.6;
+}
+
+.first-btn2 {
+    border: none;
+    padding: 12px 25px;
+    background: black;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    
+}
+
+.first-btn2:hover {
+    background-color: rgb(189, 185, 185);
+}
+
+.last-body {
+    margin-top: 60px;
+    height: 76px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.6;
+    
+}
+
+.lastblank-body {
+    height: 100px;
+    width: 100%;
+}
+
+.lastblank2-body {
+    height: 80px;
+    width: 100%;
+}
+
+
+/* footer */
+
+footer {
+    padding: 24px 0px;
+}
+
+.foot-panel{
+    background-color: white;
+    color: black;
+    height: 400px;
+    width: 76%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: left;
+}
+
+ul {
+    margin-top: 20px;
+}
+ul p {
+    font-size: 19px;
+    margin: 0px 0px 24px;
+}
+.foot-panel ul a {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #00000094;
+    padding: 8px 0px;
+    margin: 0px 0px 8px;
+    text-decoration: none;
+}
+ul a:hover {
+    color: rgb(22, 21, 21);
+}
+
+.foot-panel2 {
+    margin: 0px 30px;
+}
+
+.foot-panel2 i {
+    margin-top: 30px;
+    font-size: 30px;
+}
+.foot-panel2 ul {
+    margin-left: -30px;
+}
+li {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px 0px 8px;
+}
+
+li a {
+    text-decoration: none;
+    color: #000000DE;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.foot-panel2 h5 {
+   margin: 10px 10px ;
+     color: #00000094;
+}
