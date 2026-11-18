@@ -4,7 +4,7 @@ A static, Starbucks-inspired landing page built with HTML and CSS as a front-end
 
 ## Preview
 
-![Starbucks landing page screenshot](Screenshot%202026-11-17%20171833.png)
+![Starbucks landing page screenshot](starbucks-homepage.png)
 
 [View the live demo](https://mohammedsaad-work.github.io/Starbucks/)
 
